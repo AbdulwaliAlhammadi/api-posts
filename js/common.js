@@ -1,4 +1,4 @@
-const main = el(document, '#main');
+const main = el('#main');
 
 
 
@@ -22,5 +22,17 @@ const bodyContent = `
 renderHtml(main, bodyContent);
 renderHtml(main, footerContent);
 main.classList.add("d-flex" ,"flex-column", "vh-100");
-const body = el(document, '#body');
+const body = el('#body');
 
+window.addEventListener("resize", ()=>{
+  const width = window.innerWidth;
+  const targetDiv = el("#myClass");
+
+  if (width < 768) {
+    targetDiv.classList.remove("w-50");
+    targetDiv.classList.add("w-100");
+  } else {
+    targetDiv.classList.remove("w-100");
+    targetDiv.classList.add("w-50");
+  }
+});
