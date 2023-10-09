@@ -1,0 +1,143 @@
+.ml-auto {
+  margin-left: auto;
+}
+
+.btn-outline-dark i::before {
+  /* margin: 0px 5px 0px 0px; */
+}
+
+.btn-outline-dark span {
+  border-radius: var(--bs-border-radius-pill);
+}
+
+.fsn-1 {
+  font-size: 50px;
+}
+
+.card-div {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: var(--bs-border-color-translucent);
+  color: var(--bs-gray);
+}
+
+.vl {
+  vertical-align: 120px;
+}
+
+.card-footer {
+  border-top: none;
+  background-color: var(--bs-body-bg);
+  padding-bottom: 1.5rem !important;
+}
+
+.sale {
+  font-size: 1rem;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.footer,
+.footer div {
+  font-size: medium !important;
+}
+
+.product-form {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.product-form form .form-floating [type="file"] {
+  padding: 35px 0.75rem 26px;
+}
+
+/* .spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    z-index: 1!important;
+}
+
+#spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #000;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+
+/* Add animation to "page content" */
+/* .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+   */
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.input-container input {
+  padding-right: 30px; /* Adjust the value to create space for the icon */
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the value to position the icon */
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+button.hover{
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: var(--bs-navbar-active-color);
+}
+
+@media (max-width: 991px){
+    .navbar-expand-lg .cart-toggler{
+        display: none;
+    }
+}
