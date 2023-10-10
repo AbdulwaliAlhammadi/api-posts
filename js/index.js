@@ -45,7 +45,7 @@ const bodyTitle = `
       <div class="p-5 mb-2 bg-dark text-white text-center">
         <div class="d-flex justify-content-center">
           <div id="myClass" class="input-group w-50">
-            <label class=""d-md-flex d-none input-group-text " for="inputGroupSelect01">Show:</label>
+            <label class="d-md-flex d-none input-group-text" for="inputGroupSelect01">Show:</label>
             <select id="postNo" class="form-select" id="inputGroupSelect01">
               <option value="10" selected>10</option>
               <option value="20">20</option>
